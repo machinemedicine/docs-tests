@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "docs-test"
+version = "0.1.0"
+description = "Testing github doc deployment"
+authors = ["Yuriy Dushin <yuriy@machinemedicine.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.5.19"
+mkdocstrings = {version = "^0.24.3", extras = ["python"]}
+mkdocs-gen-files = "^0.5.0"
+mkdocs-section-index = "^0.3.9"
+mkdocs-literate-nav = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
