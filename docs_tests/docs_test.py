@@ -31,7 +31,7 @@ class NumpySummer(object):
         b : int
             Second number to sum number to sum
 
-        Returnsms
+        Returns
         -------
         int
             Sum of numbers
