@@ -1,5 +1,5 @@
 site_name: "Docs test"
-site_url: http://127.0.0.1:8000/docs-tests/  # Set to empty string false if deploying to as files
+site_url: http://127.0.0.1:8000/docs-tests/  # Set to empty string if deploying to as files
 site_description: "Test repo for documentation deployment tests"
 site_author: "Machine Medicine Team"
 copyright: "2024 MMT"
@@ -11,14 +11,19 @@ edit_uri: blob/master/docs/
 theme:
   name: material
   locale: en
-  logo: https://i.ibb.co/PFtmvNt/logo.png
-  favicon: https://i.ibb.co/PFtmvNt/logo.png
+  logo: https://i.ibb.co/NmYzF03/MMT-Inverted.png
+  favicon: https://i.ibb.co/NmYzF03/MMT-Inverted.png
   icon:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+  palette:
+    scheme: mmt
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home:
@@ -50,9 +55,6 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
   - section-index
-
-# exclude_docs: |
-#   /reference/scripts/*
 
 markdown_extensions:
   - pymdownx.highlight
