@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://127.0.0.1:8000/docs-tests/</loc>
-         <lastmod>2024-04-30</lastmod>
+         <lastmod>2024-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/docs-tests/reference/SUMMARY/</loc>
-         <lastmod>2024-04-30</lastmod>
+         <lastmod>2024-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/docs-tests/reference/docs_tests/__init__/</loc>
-         <lastmod>2024-04-30</lastmod>
+         <lastmod>2024-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/docs-tests/reference/docs_tests/docs_test/</loc>
-         <lastmod>2024-04-30</lastmod>
+         <lastmod>2024-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
